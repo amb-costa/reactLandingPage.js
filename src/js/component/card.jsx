@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 
 const Card = (props) => {
   return (
-    <div className="col-lg mx-2 card px-0">
+    <div className="col-lg m-2 card px-0">
       <img src={props.imageUrl} className="card-img-top" alt="" />
       <div className="card-body text-center">
         <h5 className="card-title fw-bold">{props.title}</h5>
